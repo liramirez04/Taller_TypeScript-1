@@ -3,6 +3,12 @@
     font-weight: bold;
 }
 
+#imgNav{
+    width:40px;
+    height:40px;
+}
+
+
 #tablaSeries {
     max-width: 650px;
     max-height: 300px;
