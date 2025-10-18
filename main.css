@@ -1,0 +1,14 @@
+#navegacion{
+    background-color:rgb(64, 163, 185);
+    font-weight: bold;
+}
+
+#tablaSeries {
+    max-width: 650px;
+    max-height: 300px;
+    width: auto;
+}
+
+.seasons-average {
+    white-space: nowrap;
+}
