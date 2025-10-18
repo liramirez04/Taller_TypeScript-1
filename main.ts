@@ -12,7 +12,7 @@ function mostrarSeries(program:Serie[]):void{
     {
         let trElement:HTMLElement = document.createElement("tr");
         trElement.innerHTML = `<td class="table-active">${serie.id}</td>
-        <td class="table-active"> <a href="${serie.link}" target="_blank"> ${serie.name} </a></td>
+        <td class="table-active"> <a href="" target="_blank"> ${serie.name} </a></td>
         <td class="table-active">${serie.channel}</td>
         <td class="table-active">${serie.seasons}</td>`;
         seriesTbody.appendChild(trElement);
