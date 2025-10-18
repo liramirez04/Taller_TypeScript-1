@@ -6,7 +6,7 @@ function mostrarSeries(program) {
     for (var _i = 0, program_1 = program; _i < program_1.length; _i++) {
         var serie = program_1[_i];
         var trElement = document.createElement("tr");
-        trElement.innerHTML = "<td class=\"table-active\">".concat(serie.id, "</td>\n        <td class=\"table-active\"> <a href=\"").concat(serie.link, "\" target=\"_blank\"> ").concat(serie.name, " </a></td>\n        <td class=\"table-active\">").concat(serie.channel, "</td>\n        <td class=\"table-active\">").concat(serie.seasons, "</td>");
+        trElement.innerHTML = "<td class=\"table-active\">".concat(serie.id, "</td>\n        <td class=\"table-active\"> <a href=\"\" target=\"_blank\"> ").concat(serie.name, " </a></td>\n        <td class=\"table-active\">").concat(serie.channel, "</td>\n        <td class=\"table-active\">").concat(serie.seasons, "</td>");
         seriesTbody.appendChild(trElement);
     }
     seriesTable.appendChild(seriesTbody);
